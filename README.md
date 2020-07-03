@@ -4,7 +4,8 @@ A web page where a user can view their entire employee directory at once so that
 
 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## This project was bootstrapped with:
+[Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
