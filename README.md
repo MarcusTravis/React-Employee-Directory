@@ -3,6 +3,8 @@
 
 ![GitHub](https://img.shields.io/github/repo-size/MarcusTravis/react-employee-directory?style=plastic) ![GitHub](https://img.shields.io/github/last-commit/MarcusTravis/react-employee-directory?style=plastic) ![GitHub](https://img.shields.io/github/languages/top/MarcusTravis/react-employee-directory?style=plastic) ![GitHub](https://img.shields.io/github/license/MarcusTravis/react-employee-directory?style=plastic) ![GitHub](https://img.shields.io/github/followers/MarcusTravis?style=social)
 
+### Deployed Link: https://github.com/MarcusTravis/react-employee-directory
+
 ## Table of Contents
 
 * [Description](#description)
