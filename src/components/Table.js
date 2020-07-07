@@ -1,9 +1,9 @@
 
 import React from "react";
 
-function Table(props) {
+export default function Table(props) {
     return (
-        <tr>
+        <tr className="text-center h4">
             <td>
                 <img src={props.photo} alt="employee" />
             </td>
@@ -16,4 +16,3 @@ function Table(props) {
     );
 }
 
-export default Table;

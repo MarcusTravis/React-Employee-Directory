@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Navbar(props) {
     return (
-        <nav className="navbar navbar-dark bg-dark text-white">
+        <nav className="navbar navbar-dark bg-dark text-white text-center">
             <div className="navbar-brand">Employee Directory</div>
             <form className="form-inline">
                 <input
