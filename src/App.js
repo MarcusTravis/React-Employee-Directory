@@ -126,39 +126,44 @@ export default class App extends React.Component {
             handleInputChange={this.handleInputChange}
             search={this.state.search}
           />
-          <div className="jumbotron bg-transparent jumbotron-responsive">
-            <table className="table table-striped table-light">
-              <thead className="thead-dark text-center">
-                <tr>
-                  <th scope="col" className="h2">Photo</th>
-                  <th scope="col" className="h2">
-                    Employee Name
-                    <button onClick={this.onSortChange} className="ml-4">
-                      {this.state.sortIcon}
-                    </button>
-                  </th>
-                  <th scope="col" className="h2">Email</th>
-                  <th scope="col" className="h2">Number</th>
-                  <th scope="col" className="h2">Location</th>
-                  <th scope="col" className="h2">D.O.B</th>
-                </tr>
-              </thead>
-              <tbody>
-                {[...data].sort(sortType[currentSort].fn).filter((employee) =>
-                    employee.name.toLowerCase().includes(this.state.search))
-                    .map((employee) => (
-                    <Table
-                      key={employee.name}
-                      photo={employee.photo}
-                      name={employee.name}
-                      email={employee.email}
-                      location={employee.location}
-                      phone={employee.phone}
-                      dob={employee.dob}
-                    />
-                  ))}
-              </tbody>
-            </table>
+          <div className="container mt-5">
+            <div className="row">
+              <div className="col">
+                <table className="table table-striped table-secondary table-active">
+                  <thead className="bg-info text-center rounded">
+                    <tr>
+                      <th>
+                        <button onClick={this.onSortChange} className="h2 rounded bg-white align-middle">
+                          {this.state.sortIcon}
+                        </button>
+                      </th>
+                      <th scope="col" className="h4 align-middle">
+                        Employee Name <br />
+                      </th>
+                      <th scope="col" className="h4 align-middle">Email</th>
+                      <th scope="col" className="h4 align-middle">Contact</th>
+                      <th scope="col" className="h4 align-middle">Location</th>
+                      <th scope="col" className="h4 align-middle">D.O.B</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {[...data].sort(sortType[currentSort].fn).filter((employee) =>
+                      employee.name.toLowerCase().includes(this.state.search))
+                      .map((employee) => (
+                        <Table
+                          key={employee.name}
+                          photo={employee.photo}
+                          name={employee.name}
+                          email={employee.email}
+                          location={employee.location}
+                          phone={employee.phone}
+                          dob={employee.dob}
+                        />
+                      ))}
+                  </tbody>
+                </table>
+              </div>
+            </div>
           </div>
         </div>
       )
