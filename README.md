@@ -1,8 +1,40 @@
+ 
 # React-Employee-Directory
-A web page where a user can view their entire employee directory at once so that they have quick access to their employee information.
 
+![GitHub](https://img.shields.io/github/repo-size/MarcusTravis/react-employee-directory?style=plastic) ![GitHub](https://img.shields.io/github/last-commit/MarcusTravis/react-employee-directory?style=plastic) ![GitHub](https://img.shields.io/github/languages/top/MarcusTravis/react-employee-directory?style=plastic) ![GitHub](https://img.shields.io/github/license/MarcusTravis/react-employee-directory?style=plastic) ![GitHub](https://img.shields.io/github/followers/MarcusTravis?style=social)
 
+## Table of Contents
 
+* [Description](#description)
+* [Built With](#built-with)
+* [Authors](#authors)
+* [License](#license)
+* [Acknowledgements](#acknowledgements)
+
+## Description
+
+This is a web page where a user can view their entire employee directory at once so that they have quick access to their employee information.
+
+## Built With
+
+* React
+* HTML
+* CSS
+* JavaScript
+* Bootstrap
+
+## Authors
+
+**Marcus Travis**
+
+## License
+
+N/A
+
+## Acknowledgments
+
+UofA code bootcamp Fullstack webdev
+* Hat tip to anyone whose code was used!
 
 ## This project was bootstrapped with:
 [Create React App](https://github.com/facebook/create-react-app).
