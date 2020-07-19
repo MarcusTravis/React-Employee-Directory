@@ -15,7 +15,7 @@
 
 ## Description
 
-This is a web page where a user can view their entire employee directory at once so that they have quick access to their employee information.
+A web page where users can view their entire employee directory at once, so they have quick access to their employee information.
 
 ## Built With
 
